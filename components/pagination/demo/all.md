@@ -20,6 +20,7 @@ ReactDOM.render(
   <>
     <Pagination
       total={85}
+      positon={"top"}
       showSizeChanger
       showQuickJumper
       showTotal={total => `Total ${total} items`}
